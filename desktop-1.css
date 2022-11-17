@@ -1,0 +1,1072 @@
+/* screen - desktop-1 */
+
+.desktop-1 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 1217px;
+  position: relative;
+  width: 1440px;
+}
+
+.desktop-1 .rectangle-17 {
+  height: 145px;
+  left: 391px;
+  object-fit: cover;
+  position: absolute;
+  top: 162px;
+  width: 145px;
+}
+
+.desktop-1 .rectangle-33 {
+  height: 145px;
+  left: 597px;
+  object-fit: cover;
+  position: absolute;
+  top: 162px;
+  width: 145px;
+}
+
+.desktop-1 .overlap-group16 {
+  height: 156px;
+  left: 803px;
+  position: absolute;
+  top: 151px;
+  width: 159px;
+}
+
+.desktop-1 .rectangle-34 {
+  height: 145px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 145px;
+}
+
+.desktop-1 .image-37 {
+  height: 27px;
+  left: 121px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 27px;
+}
+
+.desktop-1 .image-39 {
+  height: 26px;
+  left: 133px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 26px;
+}
+
+.desktop-1 .rectangle-35 {
+  height: 145px;
+  left: 1007px;
+  object-fit: cover;
+  position: absolute;
+  top: 162px;
+  width: 145px;
+}
+
+.desktop-1 .rectangle-36 {
+  height: 145px;
+  left: 1213px;
+  object-fit: cover;
+  position: absolute;
+  top: 162px;
+  width: 145px;
+}
+
+.desktop-1 .line-1 {
+  height: 4px;
+  left: 336px;
+  position: absolute;
+  top: 128px;
+  width: 1104px;
+}
+
+.desktop-1 .overlap-group7 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 595px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 413px;
+}
+
+.desktop-1 .image {
+  height: 17px;
+  margin-top: 1.0px;
+  object-fit: cover;
+  width: 17px;
+}
+
+.desktop-1 .overlap-group {
+  align-items: flex-start;
+  background-color: var(--bon-jour);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  display: flex;
+  height: 38px;
+  margin-left: 13px;
+  min-width: 48px;
+  padding: 8px 16px;
+}
+
+.desktop-1 .number {
+  height: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 16px;
+}
+
+.desktop-1 .image-1 {
+  height: 17px;
+  margin-left: 15px;
+  margin-top: 1.0px;
+  object-fit: cover;
+  width: 17px;
+}
+
+.desktop-1 .beef-dumplings {
+  height: 29px;
+  left: 391px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 320px;
+  width: 145px;
+}
+
+.desktop-1 .homemade-galbi-dumpling {
+  height: 29px;
+  left: 592px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 324px;
+  width: 162px;
+}
+
+.desktop-1 .wagyu-croquette {
+  height: 29px;
+  left: 800px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 320px;
+  width: 159px;
+}
+
+.desktop-1 .gochu-shrimp {
+  height: 29px;
+  left: 1007px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 315px;
+  width: 145px;
+}
+
+.desktop-1 .gochu-wings {
+  height: 29px;
+  left: 1217px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 315px;
+  width: 145px;
+}
+
+.desktop-1 .pan-fried-beef-filled-dumplings {
+  height: 33px;
+  left: 393px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 356px;
+  width: 143px;
+}
+
+.desktop-1 .pan-fried-dumpling-f {
+  height: 33px;
+  left: 580px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 374px;
+  width: 183px;
+}
+
+.desktop-1 .deep-fried-balls-wit {
+  height: 33px;
+  left: 794px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 360px;
+  width: 177px;
+}
+
+.desktop-1 .fried-shrimp-with-ou {
+  height: 33px;
+  left: 1006px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 351px;
+  width: 143px;
+}
+
+.desktop-1 .korean-fried-chicken {
+  height: 33px;
+  left: 1213px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 351px;
+  width: 143px;
+}
+
+.desktop-1 .overlap-group6 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 391px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 413px;
+}
+
+.desktop-1 .overlap-group3 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 803px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 413px;
+}
+
+.desktop-1 .overlap-group15 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 1007px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 413px;
+}
+
+.desktop-1 .overlap-group-1 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 1213px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 413px;
+}
+
+.desktop-1 .rectangle-45 {
+  height: 145px;
+  left: 391px;
+  object-fit: cover;
+  position: absolute;
+  top: 507px;
+  width: 145px;
+}
+
+.desktop-1 .rectangle-46 {
+  height: 145px;
+  left: 597px;
+  object-fit: cover;
+  position: absolute;
+  top: 507px;
+  width: 145px;
+}
+
+.desktop-1 .overlap-group10 {
+  height: 150px;
+  left: 803px;
+  position: absolute;
+  top: 507px;
+  width: 155px;
+}
+
+.desktop-1 .rectangle {
+  height: 145px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 145px;
+}
+
+.desktop-1 .image-36 {
+  height: 20px;
+  left: 135px;
+  object-fit: cover;
+  position: absolute;
+  top: 130px;
+  width: 20px;
+}
+
+.desktop-1 .overlap-group9 {
+  height: 154px;
+  left: 1007px;
+  position: absolute;
+  top: 498px;
+  width: 152px;
+}
+
+.desktop-1 .rectangle-48 {
+  height: 145px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 145px;
+}
+
+.desktop-1 .image-35 {
+  height: 24px;
+  left: 117px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 24px;
+}
+
+.desktop-1 .image-34 {
+  height: 26px;
+  left: 126px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 26px;
+}
+
+.desktop-1 .overlap-group17 {
+  height: 150px;
+  left: 1213px;
+  position: absolute;
+  top: 507px;
+  width: 149px;
+}
+
+.desktop-1 .image-32 {
+  height: 20px;
+  left: 129px;
+  object-fit: cover;
+  position: absolute;
+  top: 130px;
+  width: 20px;
+}
+
+.desktop-1 .overlap-group13 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 595px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 758px;
+}
+
+.desktop-1 .fried-chicken {
+  height: 29px;
+  left: 391px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 665px;
+  width: 145px;
+}
+
+.desktop-1 .bulgogi-noodle {
+  height: 29px;
+  left: 592px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 669px;
+  width: 162px;
+}
+
+.desktop-1 .japchae {
+  height: 29px;
+  left: 800px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 665px;
+  width: 159px;
+}
+
+.desktop-1 .spicy-beef-soup {
+  height: 29px;
+  left: 993px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 665px;
+  width: 173px;
+}
+
+.desktop-1 .topoki {
+  height: 29px;
+  left: 1217px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 660px;
+  width: 145px;
+}
+
+.desktop-1 .fried-chicken-wings {
+  height: 33px;
+  left: 393px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 701px;
+  width: 143px;
+}
+
+.desktop-1 .fat-noodle-bulgogi {
+  height: 33px;
+  left: 580px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 713px;
+  width: 183px;
+}
+
+.desktop-1 .surname {
+  height: 33px;
+  left: 794px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 705px;
+  width: 177px;
+}
+
+.desktop-1 .beef-brisket-bean-s {
+  height: 21px;
+  left: 1000px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 718px;
+  width: 159px;
+}
+
+.desktop-1 .surname-1 {
+  height: 33px;
+  left: 1213px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 696px;
+  width: 143px;
+}
+
+.desktop-1 .overlap-group2 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 391px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 758px;
+}
+
+.desktop-1 .overlap-group14 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 803px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 758px;
+}
+
+.desktop-1 .overlap-group12 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 1007px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 758px;
+}
+
+.desktop-1 .overlap-group5 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 1213px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 758px;
+}
+
+.desktop-1 .rectangle-60 {
+  height: 145px;
+  left: 391px;
+  object-fit: cover;
+  position: absolute;
+  top: 879px;
+  width: 145px;
+}
+
+.desktop-1 .rectangle-61 {
+  height: 145px;
+  left: 597px;
+  object-fit: cover;
+  position: absolute;
+  top: 879px;
+  width: 145px;
+}
+
+.desktop-1 .overlap-group1 {
+  height: 149px;
+  left: 803px;
+  position: absolute;
+  top: 879px;
+  width: 149px;
+}
+
+.desktop-1 .image-33 {
+  height: 20px;
+  left: 129px;
+  object-fit: cover;
+  position: absolute;
+  top: 129px;
+  width: 20px;
+}
+
+.desktop-1 .overlap-group8 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 595px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 1130px;
+}
+
+.desktop-1 .seafood-pancake {
+  height: 29px;
+  left: 385px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1037px;
+  width: 157px;
+}
+
+.desktop-1 .shrimp-tempura {
+  height: 29px;
+  left: 592px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1041px;
+  width: 162px;
+}
+
+.desktop-1 .edamame {
+  height: 29px;
+  left: 800px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1041px;
+  width: 159px;
+}
+
+.desktop-1 .pancake-with-shrimp {
+  height: 33px;
+  left: 393px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1077px;
+  width: 143px;
+}
+
+.desktop-1 .deep-fried-shrimp {
+  height: 33px;
+  left: 580px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1091px;
+  width: 183px;
+}
+
+.desktop-1 .steamed-sea-salted {
+  height: 33px;
+  left: 794px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1077px;
+  width: 177px;
+}
+
+.desktop-1 .overlap-group4 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 391px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 1130px;
+}
+
+.desktop-1 .overlap-group11 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 803px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 1130px;
+}
+
+.desktop-1 .rectangle-2 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 1024px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 337px;
+}
+
+.desktop-1 .rectangle-1 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 132px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+}
+
+.desktop-1 .rectangle-3 {
+  background-color: var(--black);
+  border: 1px none;
+  height: 1024px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 36px;
+}
+
+.desktop-1 .line-2 {
+  height: 4px;
+  left: 336px;
+  position: fixed;
+  top: 128px;
+  width: 1104px;
+}
+
+.desktop-1 .rectangle-4 {
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 10px;
+  height: 68px;
+  left: 1328px;
+  position: fixed;
+  top: 32px;
+  width: 68px;
+}
+
+.desktop-1 .rectangle-5 {
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 10px;
+  height: 68px;
+  left: 1245px;
+  position: fixed;
+  top: 32px;
+  width: 68px;
+}
+
+.desktop-1 .rectangle-6 {
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 10px;
+  height: 68px;
+  left: 1162px;
+  position: fixed;
+  top: 32px;
+  width: 68px;
+}
+
+.desktop-1 .image-1-1 {
+  height: 52px;
+  left: 1335px;
+  object-fit: cover;
+  position: fixed;
+  top: 42px;
+  width: 52px;
+}
+
+.desktop-1 .rectangle-8 {
+  background-color: #fbf8f8;
+  border: 1px none;
+  height: 58px;
+  left: 36px;
+  position: fixed;
+  top: 162px;
+  width: 299px;
+}
+
+.desktop-1 .rectangle-32 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 58px;
+  left: 36px;
+  position: fixed;
+  top: 162px;
+  width: 299px;
+}
+
+.desktop-1 .rectangle-9 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 58px;
+  left: 36px;
+  position: fixed;
+  top: 220px;
+  width: 299px;
+}
+
+.desktop-1 .title {
+  color: #7c7c7c;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 433px;
+  letter-spacing: 6.86px;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 6px;
+  width: 615px;
+}
+
+.desktop-1 .rectangle-10 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 58px;
+  left: 36px;
+  position: fixed;
+  top: 277px;
+  width: 299px;
+}
+
+.desktop-1 .rectangle-11 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 58px;
+  left: 36px;
+  position: fixed;
+  top: 335px;
+  width: 299px;
+}
+
+.desktop-1 .rectangle-12 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 58px;
+  left: 36px;
+  position: fixed;
+  top: 392px;
+  width: 299px;
+}
+
+.desktop-1 .rectangle-13 {
+  background-color: var(--white);
+  border: 1px none;
+  cursor: pointer;
+  height: 58px;
+  left: 36px;
+  position: fixed;
+  top: 450px;
+  width: 299px;
+}
+
+.desktop-1 .rectangle-14 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 58px;
+  left: 36px;
+  position: fixed;
+  top: 508px;
+  width: 299px;
+}
+
+.desktop-1 .rectangle-15 {
+  background-color: var(--white);
+  border: 1px none;
+  cursor: pointer;
+  height: 58px;
+  left: 36px;
+  position: fixed;
+  top: 565px;
+  width: 299px;
+}
+
+.desktop-1 .rectangle-16 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 58px;
+  left: 36px;
+  position: fixed;
+  top: 623px;
+  width: 299px;
+}
+
+.desktop-1 .image-2 {
+  height: 106px;
+  left: 67px;
+  object-fit: cover;
+  position: fixed;
+  top: 12px;
+  width: 119px;
+}
+
+.desktop-1 .appetizers {
+  cursor: pointer;
+  height: 58px;
+  left: 37px;
+  letter-spacing: 3.92px;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 161px;
+  width: 298px;
+}
+
+.desktop-1 .noodle {
+  cursor: pointer;
+  height: 58px;
+  left: 37px;
+  letter-spacing: 3.92px;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 219px;
+  width: 298px;
+}
+
+.desktop-1 .beef {
+  cursor: pointer;
+  height: 58px;
+  left: 33px;
+  letter-spacing: 3.92px;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 276px;
+  width: 298px;
+}
+
+.desktop-1 .pork {
+  cursor: pointer;
+  height: 58px;
+  left: 33px;
+  letter-spacing: 3.92px;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 334px;
+  width: 298px;
+}
+
+.desktop-1 .place {
+  cursor: pointer;
+  height: 58px;
+  left: 37px;
+  letter-spacing: 3.92px;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 391px;
+  width: 298px;
+}
+
+.desktop-1 .kids {
+  cursor: pointer;
+  height: 58px;
+  left: 37px;
+  letter-spacing: 3.92px;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 449px;
+  width: 298px;
+}
+
+.desktop-1 .vegetables {
+  cursor: pointer;
+  height: 58px;
+  left: 33px;
+  letter-spacing: 3.92px;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 506px;
+  width: 298px;
+}
+
+.desktop-1 .drinks {
+  height: 58px;
+  left: 33px;
+  letter-spacing: 3.92px;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 564px;
+  width: 298px;
+}
+
+.desktop-1 .dessert {
+  cursor: pointer;
+  height: 58px;
+  left: 33px;
+  letter-spacing: 3.92px;
+  line-height: normal;
+  position: fixed;
+  text-align: center;
+  top: 622px;
+  width: 298px;
+}
+
+.desktop-1 .image-40 {
+  height: 52px;
+  left: 1169px;
+  object-fit: cover;
+  position: fixed;
+  top: 40px;
+  width: 52px;
+}
