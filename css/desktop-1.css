@@ -3,7 +3,7 @@
 .desktop-1 {
   background-color: var(--white);
   border: 1px none;
-  height: 1217px;
+  height: 1100px;
   position: relative;
   width: 1440px;
 }
@@ -17,9 +17,27 @@
   width: 145px;
 }
 
+.desktop-1 .rectangle-317 {
+  height: 145px;
+  left: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: 162px;
+  width: 145px;
+}
+
 .desktop-1 .rectangle-33 {
   height: 145px;
   left: 597px;
+  object-fit: cover;
+  position: absolute;
+  top: 162px;
+  width: 145px;
+}
+
+.desktop-1 .rectangle-332 {
+  height: 145px;
+  left: 550px;
   object-fit: cover;
   position: absolute;
   top: 162px;
@@ -81,7 +99,7 @@
 
 .desktop-1 .line-1 {
   height: 4px;
-  left: 336px;
+  left: 200px;
   position: absolute;
   top: 128px;
   width: 1104px;
@@ -97,6 +115,22 @@
   height: 38px;
   justify-content: flex-end;
   left: 595px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 413px;
+}
+
+.desktop-1 .overlap-group72 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 540px;
   min-width: 145px;
   padding: 0 17px;
   position: absolute;
@@ -149,9 +183,31 @@
   width: 145px;
 }
 
+.desktop-1 .beef-dumplings2 {
+  height: 29px;
+  left: 300px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 320px;
+  width: 145px;
+}
+
 .desktop-1 .homemade-galbi-dumpling {
   height: 29px;
   left: 592px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 324px;
+  width: 162px;
+}
+
+.desktop-1 .homemade-galbi-dumpling2 {
+  height: 29px;
+  left: 540px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -204,9 +260,31 @@
   width: 143px;
 }
 
+.desktop-1 .pan-fried-beef-filled-dumplings2 {
+  height: 33px;
+  left: 300px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 356px;
+  width: 143px;
+}
+
 .desktop-1 .pan-fried-dumpling-f {
   height: 33px;
   left: 580px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 374px;
+  width: 183px;
+}
+
+.desktop-1 .pan-fried-dumpling-f2 {
+  height: 33px;
+  left: 540px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -258,6 +336,22 @@
   height: 38px;
   justify-content: flex-end;
   left: 391px;
+  min-width: 145px;
+  padding: 0 17px;
+  position: absolute;
+  top: 413px;
+}
+
+.desktop-1 .overlap-group62 {
+  align-items: center;
+  background-color: var(--alto);
+  border: 1px solid;
+  border-color: var(--silver-chalice);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  justify-content: flex-end;
+  left: 300px;
   min-width: 145px;
   padding: 0 17px;
   position: absolute;
@@ -761,6 +855,16 @@
   background-color: var(--white);
   border: 1px none;
   height: 132px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1440px;
+}
+
+.desktop-1 .rectangle-333 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 50px;
   left: 0;
   position: fixed;
   top: 0;
