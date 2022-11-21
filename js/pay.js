@@ -7,7 +7,7 @@ window.onload =  function (){
 function tiporhome(){
 
     if (sessionStorage.getItem("bills") == 0){
-        location.href = 'menu.html'
+        location.href = 'index.html'
     }
     else {
         console.log("check");
