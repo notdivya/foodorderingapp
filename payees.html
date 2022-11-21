@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=1440, maximum-scale=1.0" name="viewport" />
+  <meta content="website" name="og:type" />
+  <link href="css/desktop-1.css" rel="stylesheet" type="text/css" />
+  <link href="css/styleguide.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="css/globals.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="http://example.com/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+    }
+
+    a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .previous {
+      background-color: #f1f1f1;
+      color: black;
+    }
+    h1 {text-align: center;}
+  </style>
+</head>
+
+<body>
+  <div style="display: inline;">
+  <a href="billtype.html" class="previous">&#8249;</a>
+  <p style="font-family: inter; display: inline">back</p>
+</div>
+<div>
+<h1 style="font-family: inter; font-size:40px;">How many ways are you splitting?</h5>
+</div>
+<div>
+  <div class="card content" style="width: 18rem;">
+    <h1 id="payees" class="card-img-top" style="font-size:200px; font-family: inter; margin-top: 50px;" ></h1>
+    <div class="card-body">
+      <a class="btn btn-primary"  style="font-family: inter; margin: 60px;" onClick="decrement()">-</a>
+      <a class="btn btn-primary"  style="font-family: inter;" onClick="increment()">+</a>
+    </div>
+    <br>
+    <div>
+      <a href="tip.html" class="btn btn-primary d-flex justify-content-center"  style="font-family: inter;" onClick="addSessionStorage(); totalForMany()">Confirm</a>
+    </div>
+
+</div>
+
+</body>
+<script src="js/adjustpayees.js">
+  
+</script>
+
+</html>

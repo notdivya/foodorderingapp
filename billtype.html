@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<script>
+  function addSessionStorageFor1(){
+    sessionStorage.setItem("bills", 1);
+}
+
+</script>
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=1440, maximum-scale=1.0" name="viewport" />
+    <meta content="website" name="og:type" />
+    <link href="css/desktop-1.css" rel="stylesheet" type="text/css" />
+    <link href="css/styleguide.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/globals.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="http://example.com/favicon.png">
+    <script src="js/adjustPayees.js"></script>
+
+</head>
+
+<body style="margin: 0; background: #ffffff">
+  <div class="desktop-1 screen">
+  <img alt="image 2" class="image-2" src="img/image-2@2x.png" />
+  </div>
+
+  <div class="card card2" style="width: 18rem;">
+
+        <img src="img/split-bill.png" class="card-img-top" alt="split-bill">
+        <div class="card-body">
+          <a href="payees.html" class="btn btn-primary d-flex justify-content-center" style="font-family: inter;" onClick= "totalFor2()">Split Bill</a>
+        </div>
+
+      </div>
+
+      <div class="card card1" style="width: 18rem;">
+        <img src="img/single-bill.png" class="card-img-top" alt="single-bill">
+        <div class="card-body">
+          <a href="tip.html" class="btn btn-primary d-flex justify-content-center" style="font-family: inter;" onClick="totalFor1(); addSessionStorageFor1()" >Single Bill</a>
+        </div>
+      </div>
+    </body>
+
+</html>

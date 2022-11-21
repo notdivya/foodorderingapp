@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/desktop-1.css" rel="stylesheet" type="text/css" />
+    <link href="css/styleguide.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/globals.css" rel="stylesheet" type="text/css" />
+ 
+</head>
+<body>
+    <br>
+    <div style="text-align:center">
+        <h1 style="font-family: inter; font-size: 40px; display: inline-block;">Person</h1>
+        <br>
+        <br>
+        <br>
+        <h1 style="font-family: inter; font-size: 40px; display: inline-block;">Your total</h1>
+        <br>
+        <br>
+        <br>
+        <h1 style="font-family: inter; font-size: 40px; display: inline-block;" id="total"></h1>
+        <br>
+        <br>
+        <br>
+        <h1 style="font-family: inter; font-size: 40px; display: inline-block;">Add a tip</h1>
+        <br>
+        <br>
+        <br>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary" style="font-family: inter;" onClick="curPayee10()">10%</button>
+            <button type="button" class="btn btn-primary" style="font-family: inter;" onClick="curPayee15()">15%</button>
+            <button type="button" class="btn btn-primary" style="font-family: inter;" onClick="curPayee20()">20%</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <button type="button" class="btn btn-primary" style="font-family: inter;" onClick="curPayee0()">No Thanks</button>
+        <br>
+        <br>
+        <br>
+        <a href="tmppay.html" type="button" class="btn btn-primary btn-lg" style="font-family: inter;" onClick="decreaseSessionStore()">Confirm</a>
+
+        
+    </div>
+</body>
+<script src="js/usingStorage.js"></script>
+
+</html>

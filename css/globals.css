@@ -19,6 +19,7 @@
   pointer-events: auto;
 }
 
+
 .overlay-base {
   display: none;
   height: 100%;
@@ -27,6 +28,7 @@
   top: 0;
   width: 100%;
 }
+
 
 .overlay-base.animate-appear {
   align-items: center;
@@ -42,6 +44,63 @@
   display: block;
   opacity: 1;
   pointer-events: none;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #6495Ed !important;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: contain;
+  }
+
+.card1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-75%, -50%);
+  transform: translate(40%, -50%);
+}
+.card2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-25%, -50%);
+  transform: translate(-120%, -50%);
+}
+
+.inner {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.small-logo {
+  height: 40px;
+  left: 67px;
+  object-fit: cover;
+  position: fixed;
+  top: 12px;
+  width: 60px;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center2 {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.card-font{
+  font-family: "font-family-inter";
 }
 
 .overlay-base.animate-disappear * {
