@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=1440, maximum-scale=1.0" name="viewport" />
+    <meta content="website" name="og:type" />
+    <link href="css/desktop-1.css" rel="stylesheet" type="text/css" />
+    <link href="css/styleguide.css" rel="stylesheet" type="text/css" />
+    <link href="css/globals.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="http://example.com/favicon.png">
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input id="anPageName" name="page" type="hidden" value="desktop-1" />
+    <div class="container-center-horizontal2">
+      <div class="desktop-1 screen">
+        <img alt="Rectangle 17" class="rectangle-317" src="img/egg.png" />
+        <img alt="Rectangle 33" class="rectangle-332" src="img/20003301_front_a01_@2.png" />
+        <div class="overlap-group16">
+          <img alt="Rectangle 34" class="rectangle-34" src="img/trout-fillets.png" />
+        </div>
+        <img alt="Rectangle 35" class="rectangle-35" src="img/cobs-product-country-grain-dinner-roll-650x458.png" />
+        <img alt="Line 1" class="line-1" src="img/line-1@1x.svg" />
+        <div class="overlap-group72">
+          <div class="overlap-group">
+            <div class="roboto-normal-black-20px">Select</div>
+          </div>
+        </div>
+        <div class="beef-dumplings2 valign-text-middle roboto-bold-black-20px">Eggs</div>
+        <div class="homemade-galbi-dumpling2 valign-text-middle roboto-bold-black-20px">Peanuts</div>
+        <div class="wagyu-croquette valign-text-middle roboto-bold-black-20px">Fish</div>
+        <div class="gochu-shrimp valign-text-middle roboto-bold-black-20px">Other</div>
+        <p class="pan-fried-beef-filled-dumplings2 valign-text-middle roboto-bold-black-12px">
+          Dishes include: Egg Fried Rice, Spicy Beef Soup
+        </p>
+        <p class="pan-fried-dumpling-f2 valign-text-middle roboto-bold-black-12px">
+          Dishes include: wagyu Croquette
+        </p>
+        <p class="deep-fried-balls-wit valign-text-middle roboto-bold-black-12px">
+          Dishes include: Shrimp Tamura
+        </p>
+        <p class="fried-shrimp-with-ou valign-text-middle roboto-bold-black-12px">
+          Other Allergies Can Be Indicated to Waiter/Waitress
+        </p>
+        <div class="overlap-group62">
+          <div class="overlap-group">
+            <div class="roboto-normal-black-20px">Select</div>
+          </div>
+        </div>
+        <div class="overlap-group3">
+          <div class="overlap-group">
+            <div class="roboto-normal-black-20px">Select</div>
+          </div>
+        </div>
+        <div class="overlap-group15">
+          <div class="overlap-group">
+            <div class="roboto-normal-black-20px">Select</div>
+          </div>
+        </div>
+
+        <div class="rectangle-333"></div>
+        <h1 class="title">Select Allergies</h1>
+      </div>
+    </div>
+    
+    </div>
+    <script>
+      ShowOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") == -1) {
+          document.getElementById(overlayName).className =
+            document.getElementById(overlayName).className + " " + animationName;
+        }
+        if (window.loadAsyncSrc != undefined) {
+          loadAsyncSrc();
+        }
+      };
+
+      HideOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") != -1) {
+          cssClasses.splice(-1);
+          cssClasses.push(animationName);
+          document.getElementById(overlayName).className = cssClasses.join(" ");
+
+          cssClasses.splice(-1);
+          setTimeout(function () {
+            document.getElementById(overlayName).className = cssClasses.join(" ");
+          }, 1100);
+        }
+        var vids = document.getElementsByTagName("video");
+        if (vids) {
+          for (var i = 0; i < vids.length; i++) {
+            var video = vids.item(i);
+            video.pause();
+          }
+        }
+      };
+
+      closeOutsideOverlay = function (overlay_slug) {
+        var overlay_id = `overlay-${overlay_slug}`;
+        const overlayElement = document.getElementById(overlay_id);
+        overlayElement.addEventListener(
+          `click`,
+          function (event) {
+            var overlay_id = `overlay-${overlay_slug}`;
+            var e = event || window.event;
+            var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
+            if (e.target === overlayElement) {
+              HideOverlay(`${overlay_slug}`, "animate-disappear");
+            }
+          },
+          false
+        );
+      };
+
+      CloseOnOverlayClick = function (overlay_slug) {
+        var overlay_id = `overlay-${overlay_slug}`;
+        document.getElementById(overlay_id).addEventListener(
+          `click`,
+          function (event) {
+            {
+              var overlay_id = `overlay-${overlay_slug}`;
+              var e = event || window.event;
+              var overlayElement = document.getElementById(overlay_id);
+              var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
+              var clickedDiv = e.toElement || e.target;
+              var dismissButton = clickedDiv.parentElement.id == overlay_id;
+              var clickOutsideOverlay = false;
+              if (overlayContainer.length > 0) {
+                {
+                  clickOutsideOverlay = !overlayContainer[0].contains(clickedDiv) || overlayContainer[0] == clickedDiv;
+                }
+              }
+              if (dismissButton || clickOutsideOverlay) {
+                {
+                  HideOverlay(`${overlay_slug}`, "animate-disappear");
+                }
+              }
+            }
+          },
+          false
+        );
+      };
+    </script>
+  </body>
+</html>

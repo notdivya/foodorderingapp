@@ -19,6 +19,18 @@
   pointer-events: auto;
 }
 
+.container-center-horizontal2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal2 > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
 
 .overlay-base {
   display: none;
